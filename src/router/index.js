@@ -33,9 +33,21 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: '',
+      redirect: '/login',
+      component: (resolve) => require(['@/pages/login'], resolve),
+      children: [
+        {
+          path: '/login',
+          name: 'login',
+          component: (resolve) => require(['@/pages/login'], resolve)
+        }
+      ]
+    },
+    {
+      path: '/home',
       name: 'index',
       component: (resolve) => require(['@/pages/index'], resolve),
-      redirect: '/home',
       children: [
         {
           path: '/home',

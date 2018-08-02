@@ -40,6 +40,7 @@ module.exports = {
       'api': resolve('src/api'),
       'styles': resolve('src/styles'),
       'common': resolve('src/components'),
+      '@image': resolve('src/assets/imgs')
     }
   },
   module: {
