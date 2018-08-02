@@ -85,42 +85,43 @@ export default {
         .fs(22);
         .tab-0, .tab-1, .tab-2, .tab-3 {
           display: inline-block;
-          .h(42);
-          .w(42);
+          .h(43);
+          .w(43);
           background-size: cover;
         }
         .tab-0 {
-          background-image: url("../assets/imgs/index-noselect.svg");
+          background-image: url("../assets/imgs/icon_award_32.png");
         }
         .tab-1 {
-          background-image: url("../assets/imgs/note-noselect.svg");
+          background-image: url("../assets/imgs/icon_bulletin.png");
         }
         .tab-2 {
-          background-image: url("../assets/imgs/print-noselect.svg");
+          background-image: url("../assets/imgs/icon_activity.png");
         }
         .tab-3 {
-          background-image: url("../assets/imgs/dy-noselect.svg");
+          background-image: url("../assets/imgs/icon_person_32.png");
         }
         &:hover {
           text-decoration: none;
         }
         &.router-link-active.active {
           .tab-0 {
-            background-image: url("../assets/imgs/index-select.svg");
+            background-image: url("../assets/imgs/icon_award_32.png");
           }
           .tab-1 {
-            background-image: url("../assets/imgs/note-select.svg");
+            background-image: url("../assets/imgs/icon_bulletin.png");
           }
           .tab-2 {
-            background-image: url("../assets/imgs/print-select.svg");
+            background-image: url("../assets/imgs/icon_activity.png");
           }
           .tab-3 {
-            background-image: url("../assets/imgs/dy-select.svg");
+            background-image: url("../assets/imgs/icon_person_32.png");
           }
         }
       }
       p {
         margin: 0;
+        color: #727272;
       }
     }
   }

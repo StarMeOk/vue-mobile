@@ -7,7 +7,7 @@
         <span v-if="showinput">
           <cus-input></cus-input>
         </span>
-        <span v-if="!showinput">{{tittle}}</span>
+        <span v-if="!showinput" class="title">{{tittle}}</span>
       </div>
       <div class="right-icon">
         <span v-if="showmore" class="icon"></span>
@@ -66,9 +66,9 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  .h(100);
-  .lh(100);
-  background-color: @base-color;
+  .h(80);
+  .lh(80);
+  background: @head-background;
   color: @base-header-color;
   .fs(@base-header-size);
   display: flex;
@@ -87,6 +87,9 @@ export default {
     }
   }
   .header-tittle{
+    .title{
+      font-weight: bold;
+    }
     flex: 3;
   }
   .right-icon{
