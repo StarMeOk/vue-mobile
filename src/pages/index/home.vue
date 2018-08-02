@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common-header :showinput="true" :showback="false"></common-header>
+    <common-header :showinput="false" :showback="false"></common-header>
     <div class="page-content">
       <mt-button @click="todetail">home</mt-button>
     </div>

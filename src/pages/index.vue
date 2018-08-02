@@ -22,19 +22,19 @@ export default {
       navList: [
         {
           'path': '/home',
-          'name': '推荐'
+          'name': '开奖公告'
         },
         {
           'path': '/story',
-          'name': '故事'
+          'name': '系统资讯'
         },
         {
           'path': '/footprints',
-          'name': '足迹'
+          'name': '优惠活动'
         },
         {
           'path': '/day',
-          'name': '纪念日'
+          'name': '个人中心'
         }
       ]
     }

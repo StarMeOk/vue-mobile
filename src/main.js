@@ -49,6 +49,14 @@ window.addEventListener('popstate', function(e) {
 //     window.plus.navigator.setStatusBarBackground('#d81e06')
 //   }
 // })
+// !function(win,doc){
+//   var d=doc.documentElement;
+//   function change(){
+//       d.style.fontSize= d.clientWidth/96+'px';
+//   }
+//   win.addEventListener('resize',change,false);
+//   change();
+// }(window,document);
 
 Vue.use(Mint)
 Vue.use(Vuex)
